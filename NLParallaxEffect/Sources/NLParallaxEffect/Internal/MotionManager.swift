@@ -1,17 +1,7 @@
-import SwiftUI
+import Foundation
 import CoreMotion
 
-struct ParallaxMotionModifier: ViewModifier {
-    
-    @ObservedObject var manager: MotionManager
-    var magnitude: Double
-    
-    func body(content: Content) -> some View {
-        content
-            .offset(x: CGFloat(manager.roll * magnitude), y: CGFloat(manager.pitch * magnitude))
-    }
-}
-
+/// See: https://trailingclosure.com/device-motion-effect/
 class MotionManager: ObservableObject {
 
     @Published var pitch: Double = 0.0
@@ -19,7 +9,7 @@ class MotionManager: ObservableObject {
     
     private var manager: CMMotionManager
 
-    init() {
+    public init() {
         self.manager = CMMotionManager()
         self.manager.deviceMotionUpdateInterval = 1/60
         self.manager.showsDeviceMovementDisplay = true

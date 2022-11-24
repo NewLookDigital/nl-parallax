@@ -1,16 +1,15 @@
-//
-//  SnowScene.swift
-//  NLParallax
-//
-//  Created by Marcin Maciukiewicz on 22/11/2022.
-//
-
 import Foundation
 import SpriteKit
 
 class SnowScene: SKScene {
 
-    let snowEmitterNode = SKEmitterNode(fileNamed: "snow.sks")
+    let snowEmitterNode: SKEmitterNode? = {
+        var node = SKEmitterNode.fromBundle(fileName: "snow", bundle: .module)
+        if let uiImage = UIImage(named: "spark", in: .module, with: nil) {
+            node?.particleTexture = SKTexture(image: uiImage)
+        }
+        return node
+    }()
 
     override func didMove(to view: SKView) {
         guard let snowEmitterNode = snowEmitterNode else { return }

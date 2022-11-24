@@ -9,24 +9,18 @@
 /* Begin PBXBuildFile section */
 		323BE5EB292D3A3A004B1F3B /* NLParallaxApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 323BE5EA292D3A3A004B1F3B /* NLParallaxApp.swift */; };
 		323BE5ED292D3A3A004B1F3B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 323BE5EC292D3A3A004B1F3B /* ContentView.swift */; };
-		323BE5EF292D3A3C004B1F3B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 323BE5EE292D3A3C004B1F3B /* Assets.xcassets */; };
 		323BE5F2292D3A3C004B1F3B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 323BE5F1292D3A3C004B1F3B /* Preview Assets.xcassets */; };
-		323BE5F9292D3A54004B1F3B /* ParallaxMotionModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 323BE5F8292D3A54004B1F3B /* ParallaxMotionModifier.swift */; };
-		32E1C2D5292D63190033AAA5 /* snow.sks in Resources */ = {isa = PBXBuildFile; fileRef = 32E1C2D3292D63190033AAA5 /* snow.sks */; };
-		32E1C2D6292D63190033AAA5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32E1C2D4292D63190033AAA5 /* Assets.xcassets */; };
-		32E1C2D8292D63390033AAA5 /* SnowScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32E1C2D7292D63390033AAA5 /* SnowScene.swift */; };
+		3260039B292FC5EE004CF506 /* NLParallaxEffect in Frameworks */ = {isa = PBXBuildFile; productRef = 3260039A292FC5EE004CF506 /* NLParallaxEffect */; };
+		3260039F292FCC7A004CF506 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3260039E292FCC5A004CF506 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		323BE5E7292D3A3A004B1F3B /* NLParallax.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NLParallax.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		323BE5EA292D3A3A004B1F3B /* NLParallaxApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NLParallaxApp.swift; sourceTree = "<group>"; };
 		323BE5EC292D3A3A004B1F3B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		323BE5EE292D3A3C004B1F3B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		323BE5F1292D3A3C004B1F3B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		323BE5F8292D3A54004B1F3B /* ParallaxMotionModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParallaxMotionModifier.swift; sourceTree = "<group>"; };
-		32E1C2D3292D63190033AAA5 /* snow.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = snow.sks; sourceTree = "<group>"; };
-		32E1C2D4292D63190033AAA5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		32E1C2D7292D63390033AAA5 /* SnowScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnowScene.swift; sourceTree = "<group>"; };
+		32600398292FC538004CF506 /* NLParallaxEffect */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = NLParallaxEffect; path = ../NLParallaxEffect; sourceTree = "<group>"; };
+		3260039E292FCC5A004CF506 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -34,6 +28,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3260039B292FC5EE004CF506 /* NLParallaxEffect in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -43,9 +38,10 @@
 		323BE5DE292D3A3A004B1F3B = {
 			isa = PBXGroup;
 			children = (
-				32E1C2D4292D63190033AAA5 /* Assets.xcassets */,
+				32600398292FC538004CF506 /* NLParallaxEffect */,
 				323BE5E9292D3A3A004B1F3B /* NLParallax */,
 				323BE5E8292D3A3A004B1F3B /* Products */,
+				32600399292FC5EE004CF506 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,13 +56,10 @@
 		323BE5E9292D3A3A004B1F3B /* NLParallax */ = {
 			isa = PBXGroup;
 			children = (
-				32E1C2D3292D63190033AAA5 /* snow.sks */,
+				3260039E292FCC5A004CF506 /* Assets.xcassets */,
 				323BE5EA292D3A3A004B1F3B /* NLParallaxApp.swift */,
 				323BE5EC292D3A3A004B1F3B /* ContentView.swift */,
-				323BE5EE292D3A3C004B1F3B /* Assets.xcassets */,
 				323BE5F0292D3A3C004B1F3B /* Preview Content */,
-				323BE5F8292D3A54004B1F3B /* ParallaxMotionModifier.swift */,
-				32E1C2D7292D63390033AAA5 /* SnowScene.swift */,
 			);
 			path = NLParallax;
 			sourceTree = "<group>";
@@ -77,6 +70,13 @@
 				323BE5F1292D3A3C004B1F3B /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		32600399292FC5EE004CF506 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -95,6 +95,9 @@
 			dependencies = (
 			);
 			name = NLParallax;
+			packageProductDependencies = (
+				3260039A292FC5EE004CF506 /* NLParallaxEffect */,
+			);
 			productName = NLParallax;
 			productReference = 323BE5E7292D3A3A004B1F3B /* NLParallax.app */;
 			productType = "com.apple.product-type.application";
@@ -137,10 +140,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				32E1C2D5292D63190033AAA5 /* snow.sks in Resources */,
 				323BE5F2292D3A3C004B1F3B /* Preview Assets.xcassets in Resources */,
-				32E1C2D6292D63190033AAA5 /* Assets.xcassets in Resources */,
-				323BE5EF292D3A3C004B1F3B /* Assets.xcassets in Resources */,
+				3260039F292FCC7A004CF506 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -152,9 +153,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				323BE5ED292D3A3A004B1F3B /* ContentView.swift in Sources */,
-				323BE5F9292D3A54004B1F3B /* ParallaxMotionModifier.swift in Sources */,
 				323BE5EB292D3A3A004B1F3B /* NLParallaxApp.swift in Sources */,
-				32E1C2D8292D63390033AAA5 /* SnowScene.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -355,6 +354,13 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		3260039A292FC5EE004CF506 /* NLParallaxEffect */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = NLParallaxEffect;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 323BE5DF292D3A3A004B1F3B /* Project object */;
 }
