@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1273px" height="1273px" viewBox="0 0 1273 1273" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>back #5</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="back-#5" fill="#FFFFFF">
+            <g id="Tree" transform="translate(437.633147, 869.000000)">
+                <polygon id="Triangle" points="159.288382 0 236.588021 135.638989 81.9887427 135.638989"></polygon>
+                <polygon id="Triangle" points="159.821591 48.1299639 271.199565 243.566787 48.4436163 243.566787"></polygon>
+                <polygon id="Triangle" points="160.41753 122.512635 320.835061 404 0 404"></polygon>
+            </g>
+            <g id="Tree" transform="translate(726.917098, 966.259259)">
+                <polygon id="Triangle" points="120.941179 0 179.631645 102.985158 62.250712 102.985158"></polygon>
+                <polygon id="Triangle" points="121.346023 36.5431207 205.910781 184.930338 36.7812642 184.930338"></polygon>
+                <polygon id="Triangle" points="121.798495 93.0188528 243.596991 306.740741 0 306.740741"></polygon>
+            </g>
+            <g id="Tree" transform="translate(185.682402, 936.333333)">
+                <polygon id="Triangle" points="132.740318 0 197.156684 113.032491 68.3239522 113.032491"></polygon>
+                <polygon id="Triangle" points="133.184659 40.1083032 225.999638 202.972323 40.3696803 202.972323"></polygon>
+                <polygon id="Triangle" points="133.681275 102.093863 267.362551 336.666667 0 336.666667"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

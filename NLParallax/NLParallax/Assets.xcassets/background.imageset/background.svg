@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1273px" height="1273px" viewBox="0 0 1273 1273" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>background</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="background">
+            <rect id="Rectangle" fill="#0A2324" x="0" y="0" width="1273" height="1273"></rect>
+            <path d="M433.5,276 C434.445331,276 435.387238,276.014656 436.325507,276.043754 C421.406551,289.236098 412,308.51954 412,330 C412,369.764502 444.235498,402 484,402 C496.562245,402 508.373073,398.782802 518.653505,393.127385 C507.012867,429.036197 473.288519,455 433.5,455 C384.070515,455 344,414.929485 344,365.5 C344,316.070515 384.070515,276 433.5,276 Z" id="Combined-Shape" fill="#FFFFFF"></path>
+        </g>
+    </g>
+</svg>
